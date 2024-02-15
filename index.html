@@ -1,28 +1,39 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interaction</title>
+    <title>Your Colorful Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Carlito:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <h1>Core 2 Interaction</h1>
+        <h1>Your Website</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#Storytime">Storytime</a>
+            <a href="#Questionniare">Questionniare</a>
+            <a href="#Stories as network">Stories as Network</a>
+            <a href="#Structure Analysis">Structure Analysis</a>
+        </nav>
     </header>
 
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#Storytime">Storytime</a>
-        <a href="#Questionniare">Questionniare</a>
-        <a href="#Stories as network">Stories as network</a>
-        <a href="#Structure Analysis">Structure Analysis</a>
-    </nav>
+    <main>
+        <section id="home" class="home-section">
+            <h2>Core 2 Interaction</h2>
+        </section>
 
-    <section>
-        
-    </section>
+        <section class="box-section">
+            <div class="box" onclick="window.location.href='#home'">Home</div>
+            <div class="box" onclick="window.location.href='#Storytime'">Storytime</div>
+            <div class="box" onclick="window.location.href='#Questionniare'">Questionniare</div>
+            <div class="box" onclick="window.location.href='#Stories as Network'">Stories as Network</div>
+            <div class="box" onclick="window.location.href='#Structure Analysis'">Structure Analysis</div>
+        </section>
+    </main>
 
 </body>
 </html>

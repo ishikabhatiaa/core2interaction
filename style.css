@@ -1,45 +1,60 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Carlito', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+    background-color: olive;
+    color: white;
+    padding: 20px;
     text-align: center;
-    width: 100%;
 }
 
 nav {
-    background-color: #444;
-    overflow: hidden;
-    width: 100%;
+    margin-top: 10px;
 }
 
 nav a {
-    float: left;
-    display: block;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
 }
 
-nav a:hover {
-    background-color: #ddd;
-    color: black;
+main {
+    background-color: white;
 }
 
-section {
-    padding: 20px;
-    width: 80%; 
+.home-section {
+    background-color: orange;
+    color: white;
+    padding: 50px 0;
     text-align: center;
+}
+
+.box-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: olive;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.box:hover {
+    background-color: #b88747; /* Darker shade of orange for hover effect */
+}
+
 }
