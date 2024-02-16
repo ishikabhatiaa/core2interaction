@@ -32,29 +32,3 @@ main {
     padding: 50px 0;
     text-align: center;
 }
-
-.box-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 80vh;
-}
-
-.box {
-    width: 150px;
-    height: 150px;
-    background-color: olive;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: background-color 0.3s;
-}
-
-.box:hover {
-    background-color: #b88747; /* Darker shade of orange for hover effect */
-}
-
-}
