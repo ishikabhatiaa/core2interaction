@@ -1,0 +1,16 @@
+.white-section {
+    background-color: white;
+  }
+  
+  .blue-section {
+    background-color: babyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .white-section, .blue-section {
+      height: 100vh;
+    }
+  }
