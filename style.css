@@ -8,27 +8,4 @@ header {
     background-color: olive;
     color: white;
     padding: 20px;
-    text-align: center;
-}
-
-nav {
-    margin-top: 10px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    font-weight: bold;
-}
-
-main {
-    background-color: white;
-}
-
-.home-section {
-    background-color: orange;
-    color: white;
-    padding: 50px 0;
-    text-align: center;
 }
