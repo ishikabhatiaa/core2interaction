@@ -28,3 +28,27 @@ a {
 a:hover {
     background-color: maroon;
 }
+
+/* Extra small devices (phones) */
+@media (max-width: 576px) {
+    
+}
+
+/* Small devices (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+}
+
+/* Medium devices (laptops) */
+@media (min-width: 769px) and (max-width: 992px) {
+    
+}
+   
+
+/* Large devices (desktops) */
+@media (min-width: 993px) and (max-width: 1200px) {
+    
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1201px) {
+}
