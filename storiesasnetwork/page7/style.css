@@ -22,6 +22,18 @@ body {
     /* Remove default link underline */
 }
 
+.arrow-container {
+    position: fixed;
+    bottom: 40px;
+    /* Increase the distance from the bottom */
+    right: 40px;
+    /* Increase the distance from the right */
+    cursor: pointer;
+    text-decoration: none;
+    /* Remove default link underline */
+}
+
+
 .B-arrow-container {
     position: fixed;
     bottom: 30px;
@@ -40,8 +52,8 @@ body {
 
 .bth {
 
-    bottom: 40px;
-    left: 50%;
+    bottom: 20px;
+    center: 20%;
     margin: auto;
     cursor: pointer;
     text-decoration: none;
