@@ -51,10 +51,9 @@ body {
 }
 
 .bth {
-
+    position: fixed;
     bottom: 20px;
-    center: 20%;
-    margin: auto;
+    right: calc(2in + 20px); /* 2 inches from the right */
     cursor: pointer;
     text-decoration: none;
     background-color: #ffffff;
