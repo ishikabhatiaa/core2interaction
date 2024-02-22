@@ -24,8 +24,8 @@ body {
 
 .B-arrow-container {
     position: fixed;
-    bottom: 40px;
-    /* Increase the distance from the bottom */
+    bottom: 30px;
+   
     left: 40px;
     /* Increase the distance from the right */
     cursor: pointer;
