@@ -1,0 +1,30 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the height to 100% of the viewport height for centering */
+    background-color: beige; /* Set the background color to beige */
+}
+
+header {
+    text-align: center;
+    color: darkgreen;
+    font-size: 2em; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+a {
+    display: inline-block;
+    padding: 6px 12px; 
+    margin: 10px;
+    border-radius: 20px;
+    background-color: pink;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: maroon;
+}
