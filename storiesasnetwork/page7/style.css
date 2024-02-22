@@ -1,9 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #fff;
-    color: #333; /* Dark grey text color */
-    font-family: 'Arial', sans-serif;
+    color: #080808;
+
 }
 
 .content {
@@ -14,12 +13,47 @@ body {
 
 .arrow-container {
     position: fixed;
-    bottom: 40px; /* Increase the distance from the bottom */
-    right: 40px; /* Increase the distance from the right */
+    bottom: 40px;
+    /* Increase the distance from the bottom */
+    right: 40px;
+    /* Increase the distance from the right */
     cursor: pointer;
-    text-decoration: none; /* Remove default link underline */
+    text-decoration: none;
+    /* Remove default link underline */
+}
+
+.B-arrow-container {
+    position: fixed;
+    bottom: 40px;
+    /* Increase the distance from the bottom */
+    left: 40px;
+    /* Increase the distance from the right */
+    cursor: pointer;
+    text-decoration: none;
+    transform: rotate(180deg);
 }
 
 .arrow {
     font-size: 36px;
+    color: #080808;
+}
+
+.bth {
+
+    bottom: 40px;
+    left: 50%;
+    margin: auto;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    word-spacing: 8px;
+    transition: background-color 0.3s, color 0.3s;
 }

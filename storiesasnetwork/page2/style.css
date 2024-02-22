@@ -1,9 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #fff;
-    color: #333; /* Dark grey text color */
-    font-family: 'Arial', sans-serif;
+    color: #080808;
 }
 
 .content {
@@ -18,7 +16,9 @@ body {
     right: 40px; /* Increase the distance from the right */
     cursor: pointer;
     text-decoration: none; /* Remove default link underline */
+    color: #080808;
 }
+
 
 .arrow {
     font-size: 36px;

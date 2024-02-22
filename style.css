@@ -1,23 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,600&display=swap');
+
+.fontstyle {
+    font-family: 'Bodoni Moda', serif;
+}
+
+.font-style {
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    line-height: 1.75;
+    word-spacing: 8px;
+}
 
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Set the height to 100% of the viewport height for centering */
-    background-color: beige; /* Set the background color to beige */
+    height: 100vh;
+    /* Set the height to 100% of the viewport height for centering */
+    background-color: beige;
+    /* Set the background color to beige */
 }
 
 header {
     text-align: center;
     color: darkgreen;
-    font-size: 2em; 
-    font-family: 'Roboto', sans-serif; 
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
     display: inline-block;
-    padding: 6px 12px; 
+    padding: 6px 12px;
     margin: 10px;
     border-radius: 20px;
     background-color: pink;
@@ -30,25 +46,17 @@ a:hover {
 }
 
 /* Extra small devices (phones) */
-@media (max-width: 576px) {
-    
-}
+@media (max-width: 576px) {}
 
 /* Small devices (tablets) */
-@media (min-width: 577px) and (max-width: 768px) {
-}
+@media (min-width: 577px) and (max-width: 768px) {}
 
 /* Medium devices (laptops) */
-@media (min-width: 769px) and (max-width: 992px) {
-    
-}
-   
+@media (min-width: 769px) and (max-width: 992px) {}
+
 
 /* Large devices (desktops) */
-@media (min-width: 993px) and (max-width: 1200px) {
-    
-}
+@media (min-width: 993px) and (max-width: 1200px) {}
 
 /* Extra large devices (large desktops) */
-@media (min-width: 1201px) {
-}
+@media (min-width: 1201px) {}
