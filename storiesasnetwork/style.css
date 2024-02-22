@@ -1,79 +1,23 @@
-* {
+body {
   margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
-  box-sizing: border-box;
+  overflow: hidden; /* Prevents scrollbars due to absolute positioning */
 }
 
-body {
+.bubble {
+  position: absolute;
+  background-color: #3498db;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.bubble-content {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
 }
 
-.container {
-  position: relative;
-  text-align: left;
-  transform:translateX(-5%);
-  justify-content: center;
-}
-
-.container p {
-  text-align: left; /* Left-align the <p> element */
-}
-
-.rectangle {
-  height: 2900px;
-  width: 1090px;
-  margin: 0 auto; 
-}
-
-.black {
-  background-color: black;
-}
-
-.white {
-  background-color: white;
-}
-
-h1, h2, .arrow, .right, .left {
-  font-size: 40px;
-  margin: 0;
-}
-
-h1 {
-  color: white;
-}
-
-h2 {
-  color: black;
-}
-
-.arrow {
-  color: black;
-  text-decoration: none;
-}
-
-.right {
-  color: white;
-}
-
-.left {
-  color: black;
-}
-
-.left, .right {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.left {
-  left: 10px;
-}
-
-.right {
-  right: 10px;
+.bubble:hover {
+  transform: scale(1.5); /* Make the bubble 1.5 times larger on hover */
 }

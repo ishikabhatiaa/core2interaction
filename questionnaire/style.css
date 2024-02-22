@@ -4,8 +4,8 @@ body {
     flex-direction: column;
     align-items: flex-start; 
     justify-content: center;
-    background-color: darkslategrey;
-    color: white; 
+    background-color: bisque;
+    color: black; 
     padding-left: 40px; 
 }
 
@@ -15,7 +15,7 @@ a {
     margin: 10px;
     border-radius: 20px;
     background-color: grey;
-    color: #fff;
+    color: whitesmoke;
     text-decoration: none;
 }
 
@@ -25,5 +25,5 @@ a:hover {
 }
 
 p {
-    color: whitesmoke; 
+    color: black; 
 }
