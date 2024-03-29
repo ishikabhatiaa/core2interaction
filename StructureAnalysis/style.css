@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,600&display=swap');
+
+.fontstyle {
+    font-family: 'Bodoni Moda', serif;
+}
+
+.font-style {
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    line-height: 1.75;
+    word-spacing: 8px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   background-color: beige;
+    
+}
+
+header {
+    text-align: center;
+    color: darkgreen;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h2 {
+    text-align: center;
+    color: darkgreen;
+    font-size: 2em;
+    font-family: "Merriweather", serif;
+}
+
+
+a {
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: pink;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: maroon;
+}
+
+img {
+    width: 1000px;
+    height: 600px;
+  }
+  
+ 
+  .img-container {
+    max-width: 100%;
+    height: auto;
+  }
+  
+      section { margin-top: 120px; }
+      #table-of-contents { margin: 80px 0; }
+      .grid-col-2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 40px;
+      }
+
