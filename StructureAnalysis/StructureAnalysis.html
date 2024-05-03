@@ -1,54 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
-
     <title>HTML Reverse Engineering</title>
     <link rel="stylesheet" href="style.css">
-    
-  </head>
-
-  <body>
+</head>
+<body>
     <header>
-      Core 2 Interaction: Lab – &nbsp;<em>HTML Reverse Engineering</em>
+        Core 2 Interaction: Lab – <em>HTML Reverse Engineering</em>
     </header>
 
     <section id="table-of-contents">
-      <ul>
-        <li><a href="#screenshot">Screenshot</a></li>
-        <li><a href="#analysis">Analysis</a></li>
-        <li><a href="#questions">Questions</a></li>
-      </ul>
+        <ul>
+            <li><a href="#screenshot">Screenshot</a></li>
+            <li><a href="#analysis">Analysis</a></li>
+            <li><a href="#questions">Questions</a></li>
+        </ul>
     </section>
 
     <section id="screenshot">
-      <h2>Screenshot</h2>
-    <img src="screenshot2.png" alt="website screenshot">
-    <img src="Screenshot1.png" alt="website screenshot">
+        <h2>Screenshot</h2>
+        <img src="screenshot2.png" alt="website screenshot">
+        <img src="Screenshot1.png" alt="website screenshot">
     </section>
+    
     <section id="analysis">
-      <h2>Analysis</h2>
-      <div class="grid-col-2">
-        <div>
-          <pre id="analysis--simplified-html">
-          <!-- TODO: Replace with your version of a simplified structure -->
-          </pre>
+        <h2>Analysis</h2>
+        <div class="grid-col-2">
+            <div>
+                <h3>Image Attributes and Their Functions</h3>
+                <ul>
+                    <li><strong>data-src and src attributes:</strong> Define the fallback URL of the image.</li>
+                    <li><strong>data-srcset and srcset:</strong> Contain multiple image URLs along with their widths in pixels, allowing the browser to select the most appropriate image size based on the current screen resolution and window size.</li>
+                    <li><strong>data-sizes and sizes:</strong> Specify the display width of the image at various breakpoints, helping the browser determine which image to fetch from the srcset based on the current screen width.</li>
+                    <li><strong>class attribute:</strong> Includes "interactive-poster-image img-loading" which likely connects to CSS or JavaScript for styles and behaviors such as animations or loading effects.</li>
+                    <li><strong>alt attribute:</strong> Provides an alternate text description ("F1 Icons"), used for accessibility to help users who rely on screen readers understand what the image is about.</li>
+                    <li><strong>style attribute:</strong> Styling is managed through CSS.</li>
+                </ul>
+            </div>
         </div>
-        <div id="analysis--text">
-          <!-- TODO: <p>Write a response!</p> -->
-        </div>
-      </div>
     </section>
 
     <section id="analysis--questions">
-      <h2>Questions</h2>
-      <ul>
-        <li>
-          <!-- TODO: Ask some questions! -->
-        </li>
-      </ul>
+        <h2>Questions</h2>
+        <ul>
+            <li><strong>What is the purpose of using both `data-src` and `src` attributes in the `img' tag? How does the browser determine which one to use?</strong></li>
+            <li><strong>Why are there multiple image resolutions specified in the `srcset` attribute, and how does the browser choose the appropriate image from this set?</strong></li>
+        </ul>
     </section>
-
-  </body>
-	
+</body>
 </html>
