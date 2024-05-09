@@ -4,121 +4,133 @@
       "id": 1,
       "name": "Laptop",
       "image": "laptop.png",
-      "description": "Laptop"
+      "description": "click click click"
     },
     {
       "id": 2,
       "name": "iPhone",
       "image": "iphone.png",
-      "description": "iPhone"
+      "description": "tap tap steve jobs ugh"
     },
     {
       "id": 3,
       "name": "iPhone Charger",
       "image": "charger.png",
-      "description": "iPhone Charger"
+      "description": "why is it never long enough"
     },
     {
       "id": 4,
       "name": "Laptop Charger",
       "image": "charger2.png",
-      "description": "Laptop Charger"
+      "description": "that satisfactory ping when you connect it"
     },
     {
       "id": 5,
       "name": "Lip Balm",
       "image": "lipbalm.png",
-      "description": "Lip Balm"
+      "description": "always got to stop myself from eating it"
     },
     {
       "id": 6,
       "name": "Notebook",
       "image": "book.png",
-      "description": "Notebook"
+      "description": "scribble everywhere"
     },
     {
       "id": 7,
       "name": "Pen",
       "image": "pen.png",
-      "description": "Pen"
+      "description": "click click umm no i dont think thats how it works click click"
     },
     {
       "id": 8,
       "name": "Perfume",
       "image": "perfume.png",
-      "description": "Perfume"
+      "description": "Never strong enough"
     },
     {
       "id": 9,
       "name": "Keys",
       "image": "keys.png",
-      "description": "Keys"
+      "description": "Shhhh cant be so loud my dog barks when he hears them jingle"
     },
     {
       "id": 10,
       "name": "Wallet",
       "image": "wallet.png",
-      "description": "Wallet"
+      "description": "Could never hold enough for me"
     },
     {
       "id": 11,
       "name": "Grocery Bill",
       "image": "bill.png",
-      "description": "Grocery Bill"
+      "description": "Not what i need to be so long"
     },
     {
       "id": 12,
       "name": "10$ Note",
       "image": "money.png",
-      "description": "10$ Note"
+      "description": "Cha-ching!"
     },
     {
       "id": 13,
       "name": "AirPods",
       "image": "airpods.png",
-      "description": "AirPods"
+      "description": "Plug in - Plug out"
     },
     {
       "id": 14,
       "name": "Hair Clip",
       "image": "clip.png",
-      "description": "Hair Clip"
+      "description": "Only thing holding me up"
     },
     {
       "id": 15,
       "name": "Water Bottle",
       "image": "fiji.png",
-      "description": "Water Bottle"
+      "description": "Tasty atoms!"
     },
     {
       "id": 16,
       "name": "Cookie Snack",
       "image": "cookie.png",
-      "description": "Cookie Snack"
+      "description": "NOMNOMNOMNOM"
     },
     {
       "id": 17,
       "name": "Gum",
       "image": "gum.png",
-      "description": "Gum"
+      "description": "chew!"
     },
     {
       "id": 18,
       "name": "Blush",
       "image": "blush.png",
-      "description": "Blush"
+      "description": "staaaph"
     },
     {
       "id": 19,
       "name": "Hand Cream",
       "image": "handcream.png",
-      "description": "Hand Cream"
+      "description": " essentialsss "
     },
     {
       "id": 20,
       "name": "Sunglasses",
       "image": "sunglass.png",
-      "description": "Sunglasses"
+      "description": "Who turned the lights out"
+    },
+    {
+      "id": 21,
+      "name": "Hot Sauce",
+      "image": "hotsauce.png",
+      "description": "Hot!"
+    },
+    {
+      "id": 22,
+      "name": "Microfiber Cloth",
+      "image": "specs.png",
+      "description": "Clean-er"
     }
   ]
 }

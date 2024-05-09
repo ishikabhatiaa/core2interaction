@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
     const itemsGrid = document.getElementById('itemsGrid');
-    const modal = document.getElementById('modal');
+    const modal = document.getElementById('myModal');
     const modalImg = document.getElementById('modal-img');
     const modalDesc = document.getElementById('modal-description');
     const closeButton = document.querySelector('.close-button');
 
-    //closeButton.addEventListener('click', function() {       there is no close button? 
-    //  modal.classList.remove('visible');
-    //});
+    closeButton.addEventListener('click', function () {
+        modal.classList.remove('visible');
+    });
 
     fetch('items.json')
         .then(response => response.json())
@@ -16,11 +16,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 const div = document.createElement('div');
                 div.className = 'item';
                 div.innerHTML = `<img src="${item.image}" alt="${item.name}" style="width: 100%;">
-                                 <p>${item.name}: ${item.description}</p>`;
+                                 <p>${item.name}</p>`;
                 div.addEventListener('click', () => {
                     modalImg.src = item.image;
                     modalImg.alt = item.name;
-                    modalDesc.textContent = `${item.name}: ${item.description}`;
+                    modalDesc.textContent = `${item.description}`;
                     modal.classList.add('visible');
                 });
                 itemsGrid.appendChild(div);
