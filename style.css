@@ -19,9 +19,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    /* Set the height to 100% of the viewport height for centering */
     background-color: beige;
-    /* Set the background color to beige */
 }
 
 header {
@@ -45,18 +43,15 @@ a:hover {
     background-color: maroon;
 }
 
-/* Extra small devices (phones) */
+.nav-row {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+/* Responsive Media Queries */
 @media (max-width: 576px) {}
-
-/* Small devices (tablets) */
 @media (min-width: 577px) and (max-width: 768px) {}
-
-/* Medium devices (laptops) */
 @media (min-width: 769px) and (max-width: 992px) {}
-
-
-/* Large devices (desktops) */
 @media (min-width: 993px) and (max-width: 1200px) {}
-
-/* Extra large devices (large desktops) */
 @media (min-width: 1201px) {}

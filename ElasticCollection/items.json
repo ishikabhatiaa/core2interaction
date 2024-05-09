@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "image": "laptop.png",
+      "description": "Laptop"
+    },
+    {
+      "id": 2,
+      "name": "iPhone",
+      "image": "iphone.png",
+      "description": "iPhone"
+    },
+    {
+      "id": 3,
+      "name": "iPhone Charger",
+      "image": "charger.png",
+      "description": "iPhone Charger"
+    },
+    {
+      "id": 4,
+      "name": "Laptop Charger",
+      "image": "charger2.png",
+      "description": "Laptop Charger"
+    },
+    {
+      "id": 5,
+      "name": "Lip Balm",
+      "image": "lipbalm.png",
+      "description": "Lip Balm"
+    },
+    {
+      "id": 6,
+      "name": "Notebook",
+      "image": "book.png",
+      "description": "Notebook"
+    },
+    {
+      "id": 7,
+      "name": "Pen",
+      "image": "pen.png",
+      "description": "Pen"
+    },
+    {
+      "id": 8,
+      "name": "Perfume",
+      "image": "perfume.png",
+      "description": "Perfume"
+    },
+    {
+      "id": 9,
+      "name": "Keys",
+      "image": "keys.png",
+      "description": "Keys"
+    },
+    {
+      "id": 10,
+      "name": "Wallet",
+      "image": "wallet.png",
+      "description": "Wallet"
+    },
+    {
+      "id": 11,
+      "name": "Grocery Bill",
+      "image": "bill.png",
+      "description": "Grocery Bill"
+    },
+    {
+      "id": 12,
+      "name": "10$ Note",
+      "image": "money.png",
+      "description": "10$ Note"
+    },
+    {
+      "id": 13,
+      "name": "AirPods",
+      "image": "airpods.png",
+      "description": "AirPods"
+    },
+    {
+      "id": 14,
+      "name": "Hair Clip",
+      "image": "clip.png",
+      "description": "Hair Clip"
+    },
+    {
+      "id": 15,
+      "name": "Water Bottle",
+      "image": "fiji.png",
+      "description": "Water Bottle"
+    },
+    {
+      "id": 16,
+      "name": "Cookie Snack",
+      "image": "cookie.png",
+      "description": "Cookie Snack"
+    },
+    {
+      "id": 17,
+      "name": "Gum",
+      "image": "gum.png",
+      "description": "Gum"
+    },
+    {
+      "id": 18,
+      "name": "Blush",
+      "image": "blush.png",
+      "description": "Blush"
+    },
+    {
+      "id": 19,
+      "name": "Hand Cream",
+      "image": "handcream.png",
+      "description": "Hand Cream"
+    },
+    {
+      "id": 20,
+      "name": "Sunglasses",
+      "image": "sunglass.png",
+      "description": "Sunglasses"
+    }
+  ]
+}

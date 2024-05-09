@@ -1,144 +1,175 @@
-/* style.css */
-body, html {
-  width: 100%;
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+body,
+html {
   height: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 10px;
+  overflow: auto;
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0; 
-}
-
-.container {
-  position: relative;
-  width: 1200px; 
-  height: 800px; 
-  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('bag.png');
-  background-size: contain; 
-  background-repeat: no-repeat;
-  background-position: center; 
+  flex-direction: column;
+  background-color: #f0f0f0;
 }
 
-#items {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%; 
-  height: 100%; 
+.bag {
+  width: 900px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+  background: no-repeat center center;
+  background-size: contain;
+  cursor: pointer;
+
+}
+
+.bag img {
+  max-width: 50%;
+  transition: transform 0.45s ease-in-out;
+
+  animation: shake 2s ease-in-out infinite;
+  animation-delay: 3s;
+}
+
+.bag:hover {
+  transform: scale(1.05);
+}
+
+.bag:hover img {
+  transform: scale(1.05);
+}
+
+.items-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
-  grid-gap: 10px; 
-  padding: 20px; 
-}
-
-.hidden {
-  display: none;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  /* Responsive grid */
+  gap: 20px;
+  padding: 20px;
+  width: 90vw;
+  /* Full viewport width */
+  height: 100vh;
+  /* Full viewport height */
+  overflow-y: auto;
+  /* Scroll inside grid only if necessary */
+  margin: 10px;
+  /* ALWAYS KEEP MARGIN WITH GRIDS NEED SPACE ON THE SIDES */
+  transition: grid-template-columns 0.5s ease-in-out;
 }
 
 .item {
-  cursor: grab;
-  transition: opacity 0.3s ease;
-}
-
-.item:active {
-  cursor: grabbing;
-}
-
-#description {
-  position: absolute;
-  bottom: 20px;
-  width: 100%; 
-  text-align: center;
-  font-size: 1.2em;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.7); 
-}
-.items-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 2 4px 8px rgba(0, 0, 0, 0.25);
+  transition: transform 0.45s ease-in-out;
+  /* Smooth scaling on hover */
+  z-index: 1;
 }
 
-.item img {
-  width: 100%;
-  height: auto;
-  display: block;
+.item:hover {
+  transform: scale(1.25);
+  /* Enlarge items on hover */
+  cursor: pointer;
+  /* Indicates clickable items */
+  border: 2px solid #ccd;
+  backdrop-filter: blur(5px);
+  z-index: 2;
+
+}
+
+.item:hover img {
+  transform: scale(1.05);
+  /* Scale up image slightly on hover */
 }
 
 .item p {
-  text-align: center;
-}
-/* style.css */
-body, html {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0; 
+  padding-bottom: 0px;
 }
 
-.container {
-  position: relative;
-  width: 1200px; 
-  height: 800px; 
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url('bag.png');
-  background-size: contain; 
-  background-repeat: no-repeat;
-  background-position: center; 
-  transition: transform 0.3s ease; /* Smooth transition for transform changes */
-}
-
-.container:hover {
-  transform: scale(1.05); /* Scales up the container slightly when hovered */
-}
-
-#items {
-  position: absolute;
+.modal {
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%; 
-  height: 100%; 
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
-  grid-gap: 10px; 
-  padding: 20px; 
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-img {
+  width: 100%;
+  /* Ensure image takes full width of the modal content */
+  height: auto;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 1.5em;
+  cursor: pointer;
 }
 
 .hidden {
-  display: none;
+  visibility: hidden;
+  opacity: 0;
 }
 
-.item {
-  cursor: grab;
-  transition: opacity 0.3s ease;
+.visible {
+  visibility: visible;
+  opacity: 1;
 }
 
-.item:active {
-  cursor: grabbing;
-}
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
 
-#description {
-  position: absolute;
-  bottom: 20px;
-  width: 100%; 
-  text-align: center;
-  font-size: 1.2em;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.7); 
+  25% {
+    transform: translateX(-5px) rotate(-5deg);
+  }
+
+  50% {
+    transform: translateX(5px) rotate(5deg);
+  }
+
+  75% {
+    transform: translateX(-3px) rotate(-3deg);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
