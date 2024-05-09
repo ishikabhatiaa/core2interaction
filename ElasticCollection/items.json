@@ -4,37 +4,43 @@
       "id": 1,
       "name": "Laptop",
       "image": "laptop.png",
-      "description": "click click click"
+      "description": "click click click",
+      "rating": "10/10"
     },
     {
       "id": 2,
       "name": "iPhone",
       "image": "iphone.png",
-      "description": "tap tap steve jobs ugh"
+      "description": "tap tap steve jobs ugh",
+      "rating": "10/10"
     },
     {
       "id": 3,
       "name": "iPhone Charger",
       "image": "charger.png",
-      "description": "why is it never long enough"
+      "description": "why is it never long enough",
+      "rating": "6/10"
     },
     {
       "id": 4,
       "name": "Laptop Charger",
       "image": "charger2.png",
-      "description": "that satisfactory ping when you connect it"
+      "description": "that satisfactory ping when you connect it",
+      "rating": "10/10"
     },
     {
       "id": 5,
       "name": "Lip Balm",
       "image": "lipbalm.png",
-      "description": "always got to stop myself from eating it"
+      "description": "always got to stop myself from eating it",
+      "rating": "9/10"
     },
     {
       "id": 6,
       "name": "Notebook",
       "image": "book.png",
-      "description": "scribble everywhere"
+      "description": "scribble everywhere",
+      "rating": "3/10"
     },
     {
       "id": 7,
@@ -52,43 +58,50 @@
       "id": 9,
       "name": "Keys",
       "image": "keys.png",
-      "description": "Shhhh cant be so loud my dog barks when he hears them jingle"
+      "description": "Shhhh cant be so loud my dog barks when he hears them jingle",
+      "rating": "10/10"
     },
     {
       "id": 10,
       "name": "Wallet",
       "image": "wallet.png",
-      "description": "Could never hold enough for me"
+      "description": "Could never hold enough for me",
+      "rating": "10/10"
     },
     {
       "id": 11,
       "name": "Grocery Bill",
       "image": "bill.png",
-      "description": "Not what i need to be so long"
+      "description": "Not what i need to be so long",
+      "rating": "its a bill from last year lol"
     },
     {
       "id": 12,
       "name": "10$ Note",
       "image": "money.png",
-      "description": "Cha-ching!"
+      "description": "Cha-ching!",
+      "rating": "4/10"
     },
     {
       "id": 13,
       "name": "AirPods",
       "image": "airpods.png",
-      "description": "Plug in - Plug out"
+      "description": "Plug in - Plug out",
+      "rating": "10/10"
     },
     {
       "id": 14,
       "name": "Hair Clip",
       "image": "clip.png",
-      "description": "Only thing holding me up"
+      "description": "Only thing holding me up",
+      "rating": "5/10"
     },
     {
       "id": 15,
       "name": "Water Bottle",
       "image": "fiji.png",
-      "description": "Tasty atoms!"
+      "description": "Tasty atoms!",
+      "rating": "10/10"
     },
     {
       "id": 16,
@@ -100,37 +113,43 @@
       "id": 17,
       "name": "Gum",
       "image": "gum.png",
-      "description": "chew!"
+      "description": "chew!",
+      "rating": "8/10"
     },
     {
       "id": 18,
       "name": "Blush",
       "image": "blush.png",
-      "description": "staaaph"
+      "description": "staaaph",
+      "rating": "8/10"
     },
     {
       "id": 19,
       "name": "Hand Cream",
       "image": "handcream.png",
-      "description": " essentialsss "
+      "description": " essentialsss ",
+      "rating": "7/10"
     },
     {
       "id": 20,
       "name": "Sunglasses",
       "image": "sunglass.png",
-      "description": "Who turned the lights out"
+      "description": "Who turned the lights out",
+      "rating": "10/10"
     },
     {
       "id": 21,
       "name": "Hot Sauce",
       "image": "hotsauce.png",
-      "description": "Hot!"
+      "description": "Hot!",
+      "rating": "i really don't knoq how this came here"
     },
     {
       "id": 22,
       "name": "Microfiber Cloth",
       "image": "specs.png",
-      "description": "Clean-er"
+      "description": "Clean-er",
+      "rating": "10/10"
     }
   ]
 }

@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     const itemsGrid = document.getElementById('itemsGrid');
     const modal = document.getElementById('myModal');
-    const modalImg = document.getElementById('modal-img');
+    const modalImg = document.getElementById('modal-img'); 
+    const modalRate = document.getElementById('modal-rating');
     const modalDesc = document.getElementById('modal-description');
     const closeButton = document.querySelector('.close-button');
 
@@ -18,9 +19,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 div.innerHTML = `<img src="${item.image}" alt="${item.name}" style="width: 100%;">
                                  <p>${item.name}</p>`;
                 div.addEventListener('click', () => {
-                    modalImg.src = item.image;
+                    modalImg.src = item.image; 
                     modalImg.alt = item.name;
                     modalDesc.textContent = `${item.description}`;
+                    modalRate.textContent = `Rating: ${item.rating}`;
+
                     modal.classList.add('visible');
                 });
                 itemsGrid.appendChild(div);
